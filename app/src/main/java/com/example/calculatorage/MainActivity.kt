@@ -124,7 +124,7 @@ fun AgeCalculator() {
                                 contentDescription = null,
                             )
                         }else{
-                            Text(text = "Hello $inputAge you are of legal age!")
+                            Text(text = "Hello $inputName you are of legal age!")
                             Image(
                                 painter = painterResource(R.drawable.adult),
                                 contentDescription = null,
